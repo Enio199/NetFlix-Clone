@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     header > div.container{
         display: flex;
         flex-direction: column;
@@ -8,12 +8,19 @@
         margin-top: 5px;
         width: 222px;
     }
-    
+
+    .filme-principal{
+        background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/CapaPQ.jpg');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        background-position: center;
+    }
 }
 
 @media screen and (min-width: 1000px) {
-    .descricao{
+    .descricao {
         width: 60%;
     }
-    
+
 }

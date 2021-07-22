@@ -56,7 +56,7 @@ nav > a:hover {
 .filme-principal{
     font-size: 20px;
     /*Esse degradê ficou muito bom*/
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/Peakycapa.jpg');
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/Peakycapa.jpg');
     min-height: 400px;
     background-size: cover;
     display: flex;
@@ -90,6 +90,11 @@ nav > a:hover {
 
 .botao > i {
     margin-right: 8px;
+}
+
+
+.botao > a:hover{
+    color: black;
 }
 
 .botao:hover{
